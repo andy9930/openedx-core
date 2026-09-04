@@ -1,0 +1,88 @@
+.claude
+*.py[cod]
+__pycache__
+.pytest_cache
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+/dist
+/build
+/eggs
+/parts
+/bin
+/var
+/sdist
+/develop-eggs
+/.installed.cfg
+/lib
+/lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.tox
+coverage.xml
+htmlcov/
+
+
+
+# The Silver Searcher
+.agignore
+
+# OS X artifacts
+*.DS_Store
+
+# Logging
+log/
+logs/
+chromedriver.log
+ghostdriver.log
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+docs/modules.rst
+docs/openedx_content.rst
+docs/openedx_content.*.rst
+
+# Private requirements
+requirements/private.in
+requirements/private.txt
+
+# database file
+dev.db*
+
+# virtualenv
+venv/
+.venv/
+
+### Visual Studio Code ###
+# Generally ignore VS Code configuration, except... 
+.vscode/*
+# Example settings to let people quickly get up to speed with testing.
+!.vscode/launch.json.example
+!.vscode/settings.json.example
+
+# Media files (for uploads)
+/media/
+
+# Media files generated during test runs
+/test_media/
+
+# uv stuff
+.lock
+CACHEDIR.TAG
+pyvenv.cfg
